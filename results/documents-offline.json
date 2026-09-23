@@ -1,0 +1,431 @@
+[
+  {
+    "status": "validated_fixture",
+    "source": "delivery-note.pdf",
+    "items": [
+      {
+        "item": "A5 notebook",
+        "quantity": 12,
+        "unit_price": "3.50",
+        "amount": "42.00",
+        "calculated_amount": "42.00",
+        "evidence": {
+          "page": 1,
+          "row": 1,
+          "cells": [
+            [
+              42.0,
+              265.0,
+              275.0,
+              303.0
+            ],
+            [
+              275.0,
+              265.0,
+              340.0,
+              303.0
+            ],
+            [
+              340.0,
+              265.0,
+              440.0,
+              303.0
+            ],
+            [
+              440.0,
+              265.0,
+              553.0,
+              303.0
+            ]
+          ]
+        },
+        "raw": {
+          "item": "A5 notebook",
+          "quantity": "12",
+          "unit_price": "3,50",
+          "amount": "42,00"
+        }
+      },
+      {
+        "item": "Blue marker",
+        "quantity": 8,
+        "unit_price": "1.25",
+        "amount": "10.00",
+        "calculated_amount": "10.00",
+        "evidence": {
+          "page": 1,
+          "row": 2,
+          "cells": [
+            [
+              42.0,
+              303.0,
+              275.0,
+              341.0
+            ],
+            [
+              275.0,
+              303.0,
+              340.0,
+              341.0
+            ],
+            [
+              340.0,
+              303.0,
+              440.0,
+              341.0
+            ],
+            [
+              440.0,
+              303.0,
+              553.0,
+              341.0
+            ]
+          ]
+        },
+        "raw": {
+          "item": "Blue marker",
+          "quantity": "8",
+          "unit_price": "1,25",
+          "amount": "10,00"
+        }
+      },
+      {
+        "item": "Portfolio",
+        "quantity": 2,
+        "unit_price": "9.90",
+        "amount": "19.80",
+        "calculated_amount": "19.80",
+        "evidence": {
+          "page": 1,
+          "row": 3,
+          "cells": [
+            [
+              42.0,
+              341.0,
+              275.0,
+              379.0
+            ],
+            [
+              275.0,
+              341.0,
+              340.0,
+              379.0
+            ],
+            [
+              340.0,
+              341.0,
+              440.0,
+              379.0
+            ],
+            [
+              440.0,
+              341.0,
+              553.0,
+              379.0
+            ]
+          ]
+        },
+        "raw": {
+          "item": "Portfolio",
+          "quantity": "2",
+          "unit_price": "9,90",
+          "amount": "19,80"
+        }
+      }
+    ],
+    "declared_total": "71.80",
+    "computed_total": "71.80",
+    "sum_status": "complete",
+    "issues": [],
+    "scope": "Template-specific checks; no evidence of a real delivery"
+  },
+  {
+    "status": "needs_review",
+    "source": "delivery-note-wrong-total.pdf",
+    "items": [
+      {
+        "item": "A5 notebook",
+        "quantity": 12,
+        "unit_price": "3.50",
+        "amount": "42.00",
+        "calculated_amount": "42.00",
+        "evidence": {
+          "page": 1,
+          "row": 1,
+          "cells": [
+            [
+              42.0,
+              265.0,
+              275.0,
+              303.0
+            ],
+            [
+              275.0,
+              265.0,
+              340.0,
+              303.0
+            ],
+            [
+              340.0,
+              265.0,
+              440.0,
+              303.0
+            ],
+            [
+              440.0,
+              265.0,
+              553.0,
+              303.0
+            ]
+          ]
+        },
+        "raw": {
+          "item": "A5 notebook",
+          "quantity": "12",
+          "unit_price": "3,50",
+          "amount": "42,00"
+        }
+      },
+      {
+        "item": "Blue marker",
+        "quantity": 8,
+        "unit_price": "1.25",
+        "amount": "10.00",
+        "calculated_amount": "10.00",
+        "evidence": {
+          "page": 1,
+          "row": 2,
+          "cells": [
+            [
+              42.0,
+              303.0,
+              275.0,
+              341.0
+            ],
+            [
+              275.0,
+              303.0,
+              340.0,
+              341.0
+            ],
+            [
+              340.0,
+              303.0,
+              440.0,
+              341.0
+            ],
+            [
+              440.0,
+              303.0,
+              553.0,
+              341.0
+            ]
+          ]
+        },
+        "raw": {
+          "item": "Blue marker",
+          "quantity": "8",
+          "unit_price": "1,25",
+          "amount": "10,00"
+        }
+      },
+      {
+        "item": "Portfolio",
+        "quantity": 2,
+        "unit_price": "9.90",
+        "amount": "19.80",
+        "calculated_amount": "19.80",
+        "evidence": {
+          "page": 1,
+          "row": 3,
+          "cells": [
+            [
+              42.0,
+              341.0,
+              275.0,
+              379.0
+            ],
+            [
+              275.0,
+              341.0,
+              340.0,
+              379.0
+            ],
+            [
+              340.0,
+              341.0,
+              440.0,
+              379.0
+            ],
+            [
+              440.0,
+              341.0,
+              553.0,
+              379.0
+            ]
+          ]
+        },
+        "raw": {
+          "item": "Portfolio",
+          "quantity": "2",
+          "unit_price": "9,90",
+          "amount": "19,80"
+        }
+      }
+    ],
+    "declared_total": "70.80",
+    "computed_total": "71.80",
+    "sum_status": "complete",
+    "issues": [
+      {
+        "reason": "Line total differs from declared total"
+      }
+    ],
+    "scope": "Template-specific checks; no evidence of a real delivery"
+  },
+  {
+    "status": "needs_review",
+    "source": "delivery-note-missing-quantity.pdf",
+    "items": [
+      {
+        "item": "A5 notebook",
+        "quantity": 12,
+        "unit_price": "3.50",
+        "amount": "42.00",
+        "calculated_amount": "42.00",
+        "evidence": {
+          "page": 1,
+          "row": 1,
+          "cells": [
+            [
+              42.0,
+              265.0,
+              275.0,
+              303.0
+            ],
+            [
+              275.0,
+              265.0,
+              340.0,
+              303.0
+            ],
+            [
+              340.0,
+              265.0,
+              440.0,
+              303.0
+            ],
+            [
+              440.0,
+              265.0,
+              553.0,
+              303.0
+            ]
+          ]
+        },
+        "raw": {
+          "item": "A5 notebook",
+          "quantity": "12",
+          "unit_price": "3,50",
+          "amount": "42,00"
+        }
+      },
+      {
+        "item": "Blue marker",
+        "quantity": null,
+        "unit_price": "1.25",
+        "amount": "10.00",
+        "calculated_amount": null,
+        "evidence": {
+          "page": 1,
+          "row": 2,
+          "cells": [
+            [
+              42.0,
+              303.0,
+              275.0,
+              341.0
+            ],
+            [
+              275.0,
+              303.0,
+              340.0,
+              341.0
+            ],
+            [
+              340.0,
+              303.0,
+              440.0,
+              341.0
+            ],
+            [
+              440.0,
+              303.0,
+              553.0,
+              341.0
+            ]
+          ]
+        },
+        "raw": {
+          "item": "Blue marker",
+          "quantity": "",
+          "unit_price": "1,25",
+          "amount": "10,00"
+        }
+      },
+      {
+        "item": "Portfolio",
+        "quantity": 2,
+        "unit_price": "9.90",
+        "amount": "19.80",
+        "calculated_amount": "19.80",
+        "evidence": {
+          "page": 1,
+          "row": 3,
+          "cells": [
+            [
+              42.0,
+              341.0,
+              275.0,
+              379.0
+            ],
+            [
+              275.0,
+              341.0,
+              340.0,
+              379.0
+            ],
+            [
+              340.0,
+              341.0,
+              440.0,
+              379.0
+            ],
+            [
+              440.0,
+              341.0,
+              553.0,
+              379.0
+            ]
+          ]
+        },
+        "raw": {
+          "item": "Portfolio",
+          "quantity": "2",
+          "unit_price": "9,90",
+          "amount": "19,80"
+        }
+      }
+    ],
+    "declared_total": "71.80",
+    "computed_total": "71.80",
+    "sum_status": "complete",
+    "issues": [
+      {
+        "row": 2,
+        "reason": "Missing or invalid quantity"
+      }
+    ],
+    "scope": "Template-specific checks; no evidence of a real delivery"
+  }
+]

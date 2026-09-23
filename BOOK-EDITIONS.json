@@ -1,0 +1,18 @@
+{
+  "release": "v1.0.2",
+  "date": "2026-09-23",
+  "editions": [
+    {
+      "language": "fr",
+      "title": "Understanding GenAI (French-language edition)",
+      "docx_sha256": "20e2b835845a3a35dd9d3ee7cd65a550dba8f8e7329b74f74ead40baaf89926c",
+      "pdf_sha256": "868e084adc066c808e71eb5363d2fd57dd37f3935dbf83b123bdda62dbc57c79"
+    },
+    {
+      "language": "en",
+      "title": "Understanding-GenAI-Montassar-Khalloufi",
+      "docx_sha256": "1a43b872fe387710845c4e6a778131b68810e852c6aa94319c9445d536cfeedb",
+      "pdf_sha256": "cf6a087a48ce00e8c65ca4cf784d1c1d66fca8b0ba51c124898bc1df5115a2dd"
+    }
+  ]
+}

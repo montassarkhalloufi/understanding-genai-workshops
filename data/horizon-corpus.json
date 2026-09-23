@@ -1,0 +1,110 @@
+[
+  {
+    "id": "atlas-v1",
+    "family": "atlas",
+    "version": 1,
+    "active": false,
+    "access": "public",
+    "title": "Archived Atlas record",
+    "text": "In the previous configuration, the Atlas room accommodated six people. This record is archived and no longer describes the current capacity."
+  },
+  {
+    "id": "atlas-v2",
+    "family": "atlas",
+    "version": 2,
+    "active": true,
+    "access": "public",
+    "title": "Atlas room",
+    "text": "The Atlas room accommodates at most eight people. It has a wall screen and a whiteboard. The screen is available for every booking of this room."
+  },
+  {
+    "id": "boreal-v1",
+    "family": "boreal",
+    "version": 1,
+    "active": true,
+    "access": "public",
+    "title": "Boreal room",
+    "text": "The Boreal room accommodates at most twelve people. It has a projector. It does not have a wall screen. The projector uses a separate projection surface."
+  },
+  {
+    "id": "cedar-v1",
+    "family": "cedar",
+    "version": 1,
+    "active": true,
+    "access": "public",
+    "title": "Cedar room",
+    "text": "The Cedar room accommodates at most six people. It has neither a wall screen nor a projector. A whiteboard is available."
+  },
+  {
+    "id": "hours-v1",
+    "family": "hours",
+    "version": 1,
+    "active": true,
+    "access": "public",
+    "title": "Center opening hours",
+    "text": "The Horizon center opens Monday to Friday, from eight in the morning to eight in the evening. No bookings are available on Saturday or Sunday."
+  },
+  {
+    "id": "duration-v2",
+    "family": "duration",
+    "version": 2,
+    "active": true,
+    "access": "public",
+    "title": "Meeting duration",
+    "text": "An ordinary meeting lasts at most two hours. A training session may last up to four hours if the center manager has expressly approved it. This exception applies only to training sessions."
+  },
+  {
+    "id": "cancellation-v1",
+    "family": "cancellation",
+    "version": 1,
+    "active": true,
+    "access": "public",
+    "title": "Canceling a booking",
+    "text": "A booking can be canceled directly up to twenty-four hours before its start. After that deadline, contact reception. The document describes no payment or refund."
+  },
+  {
+    "id": "access-v1",
+    "family": "access",
+    "version": 1,
+    "active": true,
+    "access": "public",
+    "title": "Who can book?",
+    "text": "Center members can request a booking. Visitors must go through a member contact. An assistant response grants no additional access rights."
+  },
+  {
+    "id": "orion-v1",
+    "family": "orion",
+    "version": 1,
+    "active": true,
+    "access": "public",
+    "title": "Project Orion",
+    "text": "Project Orion is run by the Climate team. It uses the Atlas room for its workshops. Advance booking is still required."
+  },
+  {
+    "id": "vega-v1",
+    "family": "vega",
+    "version": 1,
+    "active": true,
+    "access": "public",
+    "title": "Project Vega",
+    "text": "Project Vega is run by the Robotics team. It uses the Boreal room for demonstrations. Advance booking is still required."
+  },
+  {
+    "id": "teams-v1",
+    "family": "teams",
+    "version": 1,
+    "active": true,
+    "access": "public",
+    "title": "Team contacts",
+    "text": "Alice is the contact person for the Climate team. James is the contact person for the Robotics team. These roles do not automatically grant permission to approve the duration exception for a training session."
+  },
+  {
+    "id": "internal-v1",
+    "family": "internal",
+    "version": 1,
+    "active": true,
+    "access": "internal",
+    "title": "Internal space",
+    "text": "The Sequoia room is an internal space with forty seats. Its information is restricted to center staff. It must not be given to a visitor."
+  }
+]

@@ -1,0 +1,44 @@
+{
+  "verified_at": "2026-09-23T13:53:16.571638+00:00",
+  "scope": "Current English code and names; offline software checks only. No live model call. Temporary report paths normalized in this log.",
+  "python": "3.12.14",
+  "platform": "macOS-15.0-arm64-arm-64bit",
+  "commands": [
+    {
+      "command": "python first_network.py",
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": "python horizon_rag.py test",
+      "exit_code": 0,
+      "stdout": "12 software assertions passed; no model called.\n",
+      "stderr": ""
+    },
+    {
+      "command": "python horizon_tools.py test",
+      "exit_code": 0,
+      "stdout": "15 assertions passed; effects confined to the in-memory demonstration.\n",
+      "stderr": ""
+    },
+    {
+      "command": "python test_cooperation.py",
+      "exit_code": 0,
+      "stdout": "12 loop assertions passed; no real model call.\n",
+      "stderr": ""
+    },
+    {
+      "command": "python horizon_documents.py test",
+      "exit_code": 0,
+      "stdout": "9 PDF/check/payload assertions; no vision model call.\n",
+      "stderr": ""
+    },
+    {
+      "command": "python -m unittest discover -v",
+      "exit_code": 0,
+      "stdout": "12 loop assertions passed; no real model call.\nReport for this attempt: <temporary-directory>/report.json\n",
+      "stderr": "test_cooperation_reads_utf8_before_provider (test_encoding.EncodingTests.test_cooperation_reads_utf8_before_provider) ... ok\ntest_rag_uses_utf8_under_simulated_legacy_locale (test_encoding.EncodingTests.test_rag_uses_utf8_under_simulated_legacy_locale) ... ok\ntest_bad_question_files_fail_before_provider (test_rag_variants.RagVariantsTests.test_bad_question_files_fail_before_provider) ... ok\ntest_cli_validation_has_readable_errors (test_rag_variants.RagVariantsTests.test_cli_validation_has_readable_errors) ... ok\ntest_default_and_short_corpus (test_rag_variants.RagVariantsTests.test_default_and_short_corpus) ... ok\ntest_invalid_top_k_fails_before_provider_and_report (test_rag_variants.RagVariantsTests.test_invalid_top_k_fails_before_provider_and_report) ... ok\ntest_report_generation_and_custom_questions (test_rag_variants.RagVariantsTests.test_report_generation_and_custom_questions) ... ok\ntest_three_and_five_change_context_and_recall_together (test_rag_variants.RagVariantsTests.test_three_and_five_change_context_and_recall_together) ... ok\ntest_01_existing_report_is_never_overwritten (test_reliability.ReliabilityTests.test_01_existing_report_is_never_overwritten) ... ok\ntest_02_metadata_failure_initializes_failed_attempt (test_reliability.ReliabilityTests.test_02_metadata_failure_initializes_failed_attempt) ... ok\ntest_03_second_embedding_retains_success_and_failure (test_reliability.ReliabilityTests.test_03_second_embedding_retains_success_and_failure) ... ok\ntest_04_generation_failure_is_recorded (test_reliability.ReliabilityTests.test_04_generation_failure_is_recorded) ... ok\ntest_05_projection_handles_dispatcher_errors (test_reliability.ReliabilityTests.test_05_projection_handles_dispatcher_errors) ... ok\ntest_06_tool_output_limit_executes_nothing (test_reliability.ReliabilityTests.test_06_tool_output_limit_executes_nothing) ... ok\ntest_07_tool_second_call_preserves_first_observation (test_reliability.ReliabilityTests.test_07_tool_second_call_preserves_first_observation) ... ok\ntest_08_cooperation_metadata_failure_has_a_report (test_reliability.ReliabilityTests.test_08_cooperation_metadata_failure_has_a_report) ... ok\ntest_09_workflow_failure_preserves_both_searches (test_reliability.ReliabilityTests.test_09_workflow_failure_preserves_both_searches) ... ok\ntest_10_research_failure_preserves_previous_tool (test_reliability.ReliabilityTests.test_10_research_failure_preserves_previous_tool) ... ok\ntest_11_final_generation_limit_is_separate_from_json_shape (test_reliability.ReliabilityTests.test_11_final_generation_limit_is_separate_from_json_shape) ... ok\ntest_12_pdf_missing_quantity_keeps_the_whole_row (test_reliability.ReliabilityTests.test_12_pdf_missing_quantity_keeps_the_whole_row) ... ok\ntest_13_cli_returns_nonzero_for_provider_failure (test_reliability.ReliabilityTests.test_13_cli_returns_nonzero_for_provider_failure) ... ok\ntest_14_completed_runs_keep_separate_technical_and_content_states (test_reliability.ReliabilityTests.test_14_completed_runs_keep_separate_technical_and_content_states) ... ok\n\n----------------------------------------------------------------------\nRan 22 tests in 0.229s\n\nOK\n"
+    }
+  ]
+}

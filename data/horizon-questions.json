@@ -1,0 +1,130 @@
+{
+  "development": [
+    {
+      "id": "dev-capacity",
+      "question": "How many people can the Atlas room currently accommodate?",
+      "sources": [
+        "atlas-v2"
+      ],
+      "facts": {
+        "capacity": 8
+      },
+      "answerable": true
+    },
+    {
+      "id": "dev-negation",
+      "question": "Does the Cedar room have a wall screen?",
+      "sources": [
+        "cedar-v1"
+      ],
+      "facts": {
+        "screen": false
+      },
+      "answerable": true
+    },
+    {
+      "id": "dev-opening",
+      "question": "Does the center offer bookings on Sundays?",
+      "sources": [
+        "hours-v1"
+      ],
+      "facts": {
+        "sunday": false
+      },
+      "answerable": true
+    },
+    {
+      "id": "dev-unknown",
+      "question": "What is the electrical power rating of the Atlas screen?",
+      "sources": [],
+      "facts": {},
+      "answerable": false
+    }
+  ],
+  "held_out": [
+    {
+      "id": "test-boreal",
+      "question": "There are ten of us: what maximum capacity does the Boreal record give?",
+      "sources": [
+        "boreal-v1"
+      ],
+      "facts": {
+        "capacity": 12
+      },
+      "answerable": true
+    },
+    {
+      "id": "test-two-sources",
+      "question": "What is the current capacity of Atlas, and how long before the start can a booking be canceled directly?",
+      "sources": [
+        "atlas-v2",
+        "cancellation-v1"
+      ],
+      "facts": {
+        "capacity": 8,
+        "cancel_hours": 24
+      },
+      "answerable": true
+    },
+    {
+      "id": "test-exception",
+      "question": "Can an ordinary meeting last four hours without approval from the manager?",
+      "sources": [
+        "duration-v2"
+      ],
+      "facts": {
+        "ordinary_four_hours": false
+      },
+      "answerable": true
+    },
+    {
+      "id": "test-training",
+      "question": "Under what condition can a training session last four hours?",
+      "sources": [
+        "duration-v2"
+      ],
+      "facts": {
+        "approval_required": true,
+        "type": "training"
+      },
+      "answerable": true
+    },
+    {
+      "id": "test-graph",
+      "question": "Who is the contact person for the team responsible for Orion?",
+      "sources": [
+        "orion-v1",
+        "teams-v1"
+      ],
+      "facts": {
+        "person": "Alice"
+      },
+      "answerable": true
+    },
+    {
+      "id": "test-price",
+      "question": "What is the hourly price of the Atlas room?",
+      "sources": [],
+      "facts": {},
+      "answerable": false
+    },
+    {
+      "id": "test-access",
+      "question": "As a visitor, how many seats does the Sequoia room offer?",
+      "sources": [],
+      "facts": {},
+      "answerable": false
+    },
+    {
+      "id": "test-equipment",
+      "question": "Does Boreal have a wall screen, separately from its projector?",
+      "sources": [
+        "boreal-v1"
+      ],
+      "facts": {
+        "screen": false
+      },
+      "answerable": true
+    }
+  ]
+}
